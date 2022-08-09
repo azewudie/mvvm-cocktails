@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/ingredient_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Some Ingredient"
+        android:gravity="center"
+        />
+        <TextView
+            android:id="@+id/ingredient_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Some Ingredient"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+        <TextView
+            android:id="@+id/ingredient_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="Some Ingredient"
+            android:ellipsize="start"
+            />
+        <TextView
+            android:id="@+id/ingredient_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Some Ingredient"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</merge>

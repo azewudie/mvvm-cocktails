@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MVVM Test</string>
+    <string name="a_cocktail_image">A cocktail image</string>
 </resources>

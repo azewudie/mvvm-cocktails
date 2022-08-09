@@ -59,7 +59,7 @@ class CocktailViewModel:ViewModel(){
                 }
             )
     }
-    fun getCocktailDetail(cocktailID:String){
+    fun getCocktailDetails(cocktailID:String){
         API.cocktailApi.queryCocktailDetails(cocktailID).enqueue(
             object :Callback<CocktailDetails>{
                 /**
